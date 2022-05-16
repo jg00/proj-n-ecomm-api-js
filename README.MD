@@ -2,6 +2,8 @@
 
 E-Commerce API backend only project. Auth, User, Product, Review, Order models.
 
+<img width="400" alt="ecomm-api" src="https://user-images.githubusercontent.com/43181662/168678978-a8af1ff4-b16b-4325-8bf7-fe4edf0cfc81.png">
+
 ## Technologies
 
 :coffee: **_Node_**
