@@ -41,13 +41,14 @@ app.use(cors());
 app.use(xss());
 app.use(mongoSanitize());
 
-app.use(morgan("tiny"));
+// app.use(morgan("tiny"));
 app.use(express.json()); // Access to req.body
 app.use(cookieParser(process.env.JWT_SECRET)); // Access to req.cookies (if not signed) else req.signedCookies. Verfify incoming cookies with secret and also on response use the secret to sign the cookie.
 
 app.use(express.static("./public"));
 app.use(fileUpload()); // Access to req.files, also access to req.files.mv()
 
+/*
 app.get("/", (req, res) => {
   res.send("e-commerce api");
 });
@@ -57,6 +58,7 @@ app.get("/api/v1", (req, res) => {
   console.log("signed", req.signedCookies);
   res.send("e-commerce api");
 });
+*/
 
 app.use("/api/v1/auth", authRouter);
 app.use("/api/v1/users", userRouter);
