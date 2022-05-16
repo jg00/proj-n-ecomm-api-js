@@ -1,6 +1,16 @@
+## E-Commerce API backend only project
+
+E-Commerce API backend only project. Auth, User, Product, Review, Order models.
+
+## Technologies
+
+:coffee: **_Node_**
+
+:coffee: **_Express_**
+
 ## Hosted Project
 
-[E-Commerce API Heroku URL]()
+[E-Commerce API Heroku URL](https://proj-n-ecomm-api-js.herokuapp.com)
 
 #### Setup Basic Express Server
 
